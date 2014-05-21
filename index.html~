@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Adjector.js: Default Options</title>
+		<meta name="description" content="CSS3 has opened a whole new world for designers and developers to not only add ‘stand-out’ content to their websites but also to make it talk to the user." />
+		<meta name="keywords" content="jquery typo flipper, js content animation, jquery content flip" />
+		<meta name="author" content="Author for Onextrapixel" />
+		<link rel="shortcut icon" href="../file/favicon.gif"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<script src="../file/js/modernizr.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/adjector.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/adjector.js"></script>
+
+        <script type="text/javascript">
+	  		$(document).ready(function(){
+      			$(".contain .adject").adjector();
+			});
+	</script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navi -->
+			<div class="nav-top clearfix">
+				<span class="right"><a class="nav-icon icon-th" href="http://www.onextrapixel.com/category/tutorials/"><span>View all Tutorials</span></a></span>
+				<span class="right"><a class="nav-icon icon-left" href="http://www.onextrapixel.com/2014/04/22/adjector-js-adjectify-yourself-a-minimal-and-elegant-content-flipper/"><span>Back to Tutorial Article</span></a></span>
+			</div>
+
+			<div class="header">
+				<h1>No es una <em>crisis</em> es una <strong>estafa</strong></h1>	
+			</div>
+
+			<div class="menu">
+				<a class="active" href="index.html">Fraude fiscal</a>
+				<a href="index2.html">Demo 2</a>
+				<a href="index3.html">Demo 3</a>
+				<a href="index4.html">Demo 4</a>
+			</div>
+		
+			<div class="main">
+	        	
+			<div id="robo-wrapper">
+	        	<h1 class="contain"><span class="adject">Fraude</span> <span class="adject">IBEX35 + 200 ricos, 71%|representa 24,6 % PIB 2012|17% Madrid, 31,1% Extremadura|1 empleado de Hacienda por 1928 contribuyentes|860 Francia, 729 Alemania, 551 Luxemburgo|queda impune el 88,4%|41.140 m€ 2007-2010|253.000 m€ ocultos|73,7% billetes son de 500€</span></h1>
+			Fuentes: <a href="http://www.gestha.es/index.php?seccion=actualidad&num=321" >GESTHA</a>  <a href="http://www.tercerainformacion.es/spip.php?article31939" >Tercera Información</a>
+	        </div>
+
+	      	</div>
+		</div><!-- Container -->
+	</body>
+</html>

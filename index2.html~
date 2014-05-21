@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Adjector.js: On-Axis Flipper</title>
+		<meta name="description" content="CSS3 has opened a whole new world for designers and developers to not only add ‘stand-out’ content to their websites but also to make it talk to the user." />
+		<meta name="keywords" content="jquery typo flipper, js content animation, jquery content flip" />
+		<meta name="author" content="Author for Onextrapixel" />
+		<link rel="shortcut icon" href="../file/favicon.gif"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<script src="../file/js/modernizr.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/adjector.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/adjector.js"></script>
+
+        <script type="text/javascript">
+	  		$(document).ready(function(){
+      			$(".contain .adject").adjector({
+        			arm: 0
+      			});
+			});
+	</script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navi -->
+			<div class="nav-top clearfix">
+				<span class="right"><a class="nav-icon icon-th" href="http://www.onextrapixel.com/category/tutorials/"><span>View all Tutorials</span></a></span>
+				<span class="right"><a class="nav-icon icon-left" href="http://www.onextrapixel.com/2014/04/22/adjector-js-adjectify-yourself-a-minimal-and-elegant-content-flipper/"><span>Back to Tutorial Article</span></a></span>
+			</div>
+
+			<div class="header">
+				<h1>Estafa Luz</h1>	
+			</div>
+
+			<div class="menu">
+				<a href="index.html">Fraude fiscal</a>
+				<a class="active" href="index2.html">Estafa Luz</a>
+				<a href="index3.html">Demo 3</a>
+				<a href="index4.html">Demo 4</a>
+			</div>
+		
+			<div class="main">
+	        	
+
+	        	<div id="robo-wrapper">
+	        		<h1 class="contain"><span class="adject">Estafa luz</span> <span class="adject">19 años, 5 meses y 27 días|10.800 m€ hasta 2013|4.563 m€ anuales por término de potencia|22.064 m€ por Consumo|205 m€ por impuesto sobre electricidad|182 m€ sobreimpuesto</span></h1>
+	        		<div id="option-details">Fuente: <a href="http://www.estafaluz.com/">Estafaluz.com</a></div>
+	        	</div>
+
+
+	      	</div>
+		</div><!-- Container -->
+	</body>
+</html>
